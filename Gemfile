@@ -8,6 +8,8 @@ ruby '3.2.1'
 # Use main development branch of Rails
 gem 'rails', github: 'rails/rails', branch: 'main'
 
+gem 'brakeman'
+gem 'bundler-audit', require: false
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem 'propshaft'
 
