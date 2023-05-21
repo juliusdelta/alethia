@@ -10,6 +10,7 @@ gem 'rails', github: 'rails/rails', branch: 'main'
 
 gem 'brakeman'
 gem 'bundler-audit', require: false
+gem 'faraday'
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem 'propshaft'
 
@@ -19,6 +20,7 @@ gem 'pg', '~> 1.1'
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '>= 5.0'
 
+gem 'ruby-openai'
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
 gem 'jsbundling-rails'
 
