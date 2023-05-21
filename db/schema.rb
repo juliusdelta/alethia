@@ -10,19 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2023_05_17_014450) do
+ActiveRecord::Schema[7.1].define(version: 2023_05_19_023903) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "bills", force: :cascade do |t|
-    t.jsonb "payload", default: "{}", null: false
-    t.string "congress_number"
-    t.string "bill_number"
     t.string "origin_chamber"
+    t.string "session"
+    t.string "short_title"
     t.string "title"
-    t.string "bill_type"
-    t.string "url"
-    t.datetime "last_updated_action"
+    t.string "branch"
+    t.string "su_doc_class_number"
+    t.string "doc_class"
+    t.string "bill_number"
+    t.string "category"
+    t.datetime "date_issued"
+    t.datetime "last_modified"
+    t.string "bill_version"
+    t.string "gov_info_url"
+    t.string "text_url"
+    t.text "bill_text"
+    t.jsonb "gov_info_raw_payload"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

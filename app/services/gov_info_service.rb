@@ -31,10 +31,16 @@ class GovInfoService
     JSON.parse(response.body)
   end
 
-  def get_single_by_package_id(package_id:)
+  def get_bill_by_package_id(package_id:)
     response = @client.get("/packages/#{package_id}/summary")
 
     JSON.parse(response.body)
+  end
+
+  def get_bill_text_by_package_id(package_id:)
+    response = @client.get("packages/#{package_id}/htm")
+
+    remove_html(response.body)
   end
 
   private
