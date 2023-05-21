@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class CreateBills < ActiveRecord::Migration[7.1]
+  # rubocop:disable Metrics/MethodLength, Metrics/AbcSize
   def change
     create_table :bills do |t|
       t.string :origin_chamber
@@ -21,5 +22,6 @@ class CreateBills < ActiveRecord::Migration[7.1]
       t.jsonb :gov_info_raw_payload
       t.timestamps
     end
+    # rubocop:enable Metrics/MethodLength, Metrics/AbcSize
   end
 end
