@@ -5,5 +5,5 @@
 # below each fixture, per the syntax in the comments below
 #
 beth: 
-  email: test@test.com
+  email: beth@test.com
   tos_accepted: true
