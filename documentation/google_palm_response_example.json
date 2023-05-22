@@ -1,0 +1,30 @@
+{
+  "candidates":
+  [
+    {
+      "output": "This resolution calls for the immediate extradition or rendering to the United States of convicted felons William Morales, Joanne Chesimard, and all other fugitives from justice who are receiving safe harbor in Cuba in order to escape prosecution or confinement for criminal offenses committed in the United States.\n\nThe resolution also urges the international community to continue to press for the immediate extradition or rendering of all fugitives from justice that are receiving safe harbor in Cuba, and calls on the Secretary of State and the Attorney General to continue to press for the immediate extradition or rendering of all fugitives from United States justice so that they may be tried and, if convicted, serve out their sentences.",
+      "safetyRatings": [
+        {"category":"HARM_CATEGORY_DEROGATORY","probability":"NEGLIGIBLE"},
+        {"category":"HARM_CATEGORY_TOXICITY","probability":"NEGLIGIBLE"},
+        {"category":"HARM_CATEGORY_VIOLENCE","probability":"LOW"},
+        {"category":"HARM_CATEGORY_SEXUAL","probability":"NEGLIGIBLE"},
+        {"category":"HARM_CATEGORY_MEDICAL","probability":"NEGLIGIBLE"},
+        {"category":"HARM_CATEGORY_DANGEROUS","probability":"LOW"}
+      ],
+      "citationMetadata":{
+        "citationSources":[
+          {"startIndex":22,"endIndex":251,"uri":"https://www.congress.gov/congressional-report/116th-congress/senate-report/23/1","license":""},
+          {"startIndex":141,"endIndex":318,"uri":"","license":""},
+          {"startIndex":337,"endIndex":457,"uri":"https://www.congress.gov/bill/112th-congress/house-resolution/226/text","license":""},
+          {"startIndex":343,"endIndex":513,"uri":"https://pull.eszagalazeamacg.tk/","license":""},
+          {"startIndex":509,"endIndex":629,"uri":"https://www.congress.gov/bill/115th-congress/house-resolution/664/text/ih?overview=closed&format=xml","license":""},
+          {"startIndex":515,"endIndex":642,"uri":"https://www.everycrsreport.com/files/20181130_R43835_72e24e05e09236018cd29c435e1e307be063a54c.html","license":""},
+          {"startIndex":532,"endIndex":652,"uri":"https://pull.eszagalazeamacg.tk/","license":""},
+          {"startIndex":535,"endIndex":678,"uri":"https://www.congress.gov/bill/115th-congress/house-resolution/664/text/ih?overview=closed&format=xml","license":""},
+          {"startIndex":566,"endIndex":698,"uri":"https://www.congress.gov/bill/112th-congress/house-resolution/226/text","license":""},
+          {"startIndex":581,"endIndex":742,"uri":"https://www.congress.gov/bill/115th-congress/house-resolution/664/text/ih?overview=closed&format=xml","license":""}
+        ]
+      }
+    }
+  ]
+}
