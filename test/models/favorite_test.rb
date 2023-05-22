@@ -3,7 +3,7 @@
 require 'test_helper'
 
 class FavoriteTest < ActiveSupport::TestCase
-  test 'it works' do
-    assert true
-  end
+  # test 'it works' do
+  #   assert true
+  # end
 end
